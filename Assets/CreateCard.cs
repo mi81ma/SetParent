@@ -1,7 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CreateCard : MonoBehaviour
@@ -20,7 +18,7 @@ public class CreateCard : MonoBehaviour
         // 2.親の設定
         cardObj.transform.SetParent(cardParent, false);
         */
-        
+
         //別解
         Instantiate(cardImage, cardParent);
     }

@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\CreateCard.cs" />
+     <Compile Include="Assets\GameManager.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/masato/dev/UnityDev/CardGameSample/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
