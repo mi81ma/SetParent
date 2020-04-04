@@ -45,10 +45,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\CardAnimationManager.cs" />
      <Compile Include="Assets\CardMovement.cs" />
      <Compile Include="Assets\CreateCard.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Entity.cs" />
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Timer.cs" />
+     <None Include="Assets\Demigiant\DOTween\readme.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/masato/dev/UnityDev/CardGameSample/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -264,6 +274,9 @@
  </Reference>
  <Reference Include="UnityEditor">
  <HintPath>/Applications/Unity/Hub/Editor/2019.2.17f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/masato/dev/UnityDev/CardGameSample/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Hub/Editor/2019.2.17f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
